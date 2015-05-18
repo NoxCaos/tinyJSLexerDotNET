@@ -1,0 +1,21 @@
+﻿<Window x:Class="JSLexer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="JavaScript validator" Height="700" Width="800">
+    <Grid Background="#FF1E1E1E">
+        <Image HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="72" Source="Assets/Mmww2.png" Margin="10,10,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="96,-2,0,0" TextWrapping="Wrap" Text="lexer" VerticalAlignment="Top" Height="60" Width="180" Foreground="#FFF0DB4F" FontSize="48" FontFamily="Segoe UI Light"/>
+        <ScrollViewer Margin="0,104,0,0">
+            <TextBox x:Name="CodeBlock" TextWrapping="Wrap" Text="Open a JS file to start" Margin="10,0" FontSize="16" Foreground="White" FontFamily="Comic Sans MS" Cursor="IBeam" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="#FFFFDE00" CaretBrush="White" SelectionOpacity="0.8"/>
+        </ScrollViewer>
+        <Button x:Name="OpenButton" Content="Open" HorizontalAlignment="Left" Margin="290,50,0,0" VerticalAlignment="Top" Width="104" Height="32" Background="{x:Null}" BorderBrush="#FFF0DB4F" BorderThickness="2" Foreground="White" FontSize="18" FontFamily="Microsoft YaHei UI Light" Click="OpenButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="96,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="180" Foreground="White" FontSize="18" FontFamily="Segoe UI Light"><Run Text="Beta "/><Run Text="4"/></TextBlock>
+        <Button x:Name="ValidateButton" Content="Highlight" HorizontalAlignment="Left" Margin="568,50,0,0" VerticalAlignment="Top" Width="104" Height="32" Background="{x:Null}" BorderBrush="#FFF0DB4F" BorderThickness="2" Foreground="White" FontSize="18" FontFamily="Microsoft YaHei UI Light" Click="ValidateButton_Click"/>
+        <ProgressBar x:Name="ProcessBar" HorizontalAlignment="Left" Height="9" Margin="0,90,0,0" VerticalAlignment="Top" Width="792" BorderBrush="White" Foreground="#FFF0DB4F" Background="{x:Null}" BorderThickness="0" IsIndeterminate="True" Visibility="Hidden"/>
+        <TextBlock x:Name="FileContents" HorizontalAlignment="Left" Margin="290,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="492" Foreground="White" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+        <Button x:Name="FromBuffer" Content="From buffer" HorizontalAlignment="Left" Margin="421,50,0,0" VerticalAlignment="Top" Width="119" Height="32" Background="{x:Null}" BorderBrush="#FFF0DB4F" BorderThickness="2" Foreground="White" FontSize="18" FontFamily="Microsoft YaHei UI Light" Click="FromBuffer_Click"/>
+        <WebBrowser x:Name="Browser" Margin="0,104,0,0" Visibility="Collapsed"/>
+        <Button x:Name="CloseBrowserButton" Content="X" HorizontalAlignment="Left" Margin="704,50,0,0" VerticalAlignment="Top" Width="33" Height="32" Background="{x:Null}" BorderBrush="#FFF0DB4F" BorderThickness="2" Foreground="White" FontSize="18" FontFamily="Microsoft YaHei UI Light" Click="CloseBrowserButton_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\bin\Debug\JSLexer.exe.config
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\bin\Debug\JSLexer.exe
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\bin\Debug\JSLexer.pdb
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer.csprojResolveAssemblyReference.cache
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\MainWindow.baml
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\MainWindow.g.cs
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\App.g.cs
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer_MarkupCompile.cache
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer.g.resources
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer.Properties.Resources.resources
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer.csproj.GenerateResource.Cache
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer.exe
+c:\users\gleb\documents\visual studio 2013\Projects\JSLexer\JSLexer\obj\Debug\JSLexer.pdb

@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Comic Sans MS';
+}
+
+body {
+	font-family: 'Comic Sans MS';
+	font-size: 16px;
+	background-color: #1E1E1E;
+	background-repeat: no-repeat; 
+	background-size: 100% auto;
+}
+
+/*Types*/
+
+.Integer{
+	color: #FFD800;
+}
+
+.Double{
+	color: #3300FF;
+}
+
+.Uoperator{
+	color: #21FF3E;
+}
+
+.Boperator{
+	color: #21FF3E;
+}
+
+.Punctuation{
+	color: #FF6E07;
+}
+
+.Identifier{
+
+	color: #218CFF;
+}
+
+.IdenStart{
+	color: #FFD800;
+}
+
+.StringOpened{
+	color: #FF0019;
+}
+
+.String{
+	color: #FF0019;
+}
+
+.Comment{
+	color: #808080;
+}
+
+.CommentEnd{
+	color: #808080;
+}
+
+.Empty{
+
+}
+
+.Error{
+	color: #FFF;
+	background-color: #F91B07;
+}
+
+/*Keywords*/
+
+.ActionWord{
+	color: #A418E0;
+}
+
+.TypeWord{
+	color: #77CF50;
+}
+
+.Logical{
+	color: #89A8A6;
+}
+
+/* Reserved functions and constants*/
+
+.Value{
+	color: #8B689B;
+}
+
+.Function{
+	color: #C0CE44;
+}
+
+.Constant{
+	color: #2078CC;
+}
